@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    class Class1
     {
-        static void Main(string[] args)
+        public int suma(int a, int b)
         {
+            return a + b;
+        }
 
+        public int resta(int a, int b)
+        {
+            return a - b;
         }
     }
 }
